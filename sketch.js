@@ -186,7 +186,7 @@ if(gamestate===0){
 
 	if(platform === "mobile"){
 
-		if(touches.length>=0){
+		if(touches.length>0){
 			gamestate = 1
 			sound.loop();
 			sound.setVolume(0.3)
@@ -324,13 +324,13 @@ if(gamestate===0){
 	if(platform === "mobile"){
 
 		
-	if(touches.length>=0&&mouseX>1024){
+	if(touches.length>0&&mouseX>1024){
 		gamestate=0;
 	
 	}
 
 
-	if(touches.length>=0&&mouseX<1024){
+	if(touches.length>0&&mouseX<1024){
 		gamestate=1;
 		sound.loop();
 		sound.setVolume(0.3)
