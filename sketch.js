@@ -31,6 +31,8 @@ var help, highScore, home, play, reset, Score, scorebg, title, ch1, ch2, ch3;
 function setup() {
 	createCanvas(2048, 1546);
 
+	pixelDensity(1);
+
 	if(navigator.userAgent.match(/Android/i)){
 		platform = "mobile";
 	}
