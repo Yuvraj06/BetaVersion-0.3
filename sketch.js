@@ -153,8 +153,6 @@ if(level === 1)  {
 
 	background(bg1I)
 
-	console.log(touches.x)
-
 if(gamestate===0){
 
 	
