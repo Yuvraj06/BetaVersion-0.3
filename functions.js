@@ -92,7 +92,7 @@ function movement(){
 
 	}
 	
-    if(keyDown("j")||touches.length>=0.1&& (mouseX>=0&&mouseX<=200)){
+    if(keyDown("j")||touches.length>=0&& (mouseX>=0&&mouseX<=200)){
 		player.changeAnimation("run1",player1Run );
 		player.scale = 0.5	
 		player.setCollider("rectangle",-110,0,200,430);
@@ -100,7 +100,7 @@ function movement(){
 		touches = [];
 
 	}
-	else if(keyDown("k")||touches.length>=0.1&& (mouseX>=220&&mouseX<=420)){
+	else if(keyDown("k")||touches.length>=0&& (mouseX>=220&&mouseX<=420)){
 		player.changeAnimation("run2",player2Run );
 		player.scale = 0.5
 		player.setCollider("rectangle",-100,0,380,350);
@@ -108,7 +108,7 @@ function movement(){
 		touches = [];
 
 	}
-	else if(keyDown("l")||touches.length>=0.1&& (mouseX>=440&&mouseX<=640)){
+	else if(keyDown("l")||touches.length>=0&& (mouseX>=440&&mouseX<=640)){
 		player.changeAnimation("run3",player3Run );
 		player.scale = 0.4
 		player.setCollider("rectangle",0,0,370,600);
