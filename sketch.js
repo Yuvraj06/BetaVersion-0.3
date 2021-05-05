@@ -12,7 +12,7 @@ var obs;
 
 var gamestate = 0;
 
-var level = 1 ;
+var level = 2 ;
 
 var ran = 1;
 
